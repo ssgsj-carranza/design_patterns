@@ -1,6 +1,6 @@
 import random
 from contestants import Contestant
-from interface import interface
+
 
 
 class Sweepstakes:

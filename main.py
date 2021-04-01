@@ -1,5 +1,5 @@
-from interface import interface
+from marketingfirm import MarketingFirm
 
 if __name__ == '__main__':
 
-    interface = interface()
+    marketing_firm = MarketingFirm()

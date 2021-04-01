@@ -17,4 +17,7 @@ class Contestant:
             print("Please enter characters A-Z")
 
     def notify(self, is_winner):
-        print(f"Congratulations {self.first_name} {self.last_name} you are the winner!!!")
+        if is_winner is True:
+            print(f"Congratulations {self.first_name} {self.last_name} you are the winner!!!")
+        else:
+            print("We have chosen a winner, thanks for participating")

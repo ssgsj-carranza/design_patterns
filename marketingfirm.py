@@ -12,4 +12,6 @@ class MarketingFirm:
         self.manager.insert_sweepstakes(sweepstakes)
 
 
-
+class MarketingFirmCreator:
+    def __init__(self):
+        self.manager = MarketingFirm()
